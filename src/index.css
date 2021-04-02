@@ -1,0 +1,36 @@
+/*########## Global Styling ##########*/
+* {
+  box-sizing: border-box;
+}
+body {
+  background: url("/src/asset/images/background.jpg");
+  background-position: center; 
+  background-size: cover;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.navbar {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7);
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  padding: 0 1rem;
+}
+
+.navbar .navlinks {
+  grid-column: 3/4;
+}
+.navbar  a {
+  color: rgb(236, 15, 163);
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  text-decoration: none;
+}
+.navbar  a:hover {
+  color: rgba(236, 17, 182, 0.7);
+}

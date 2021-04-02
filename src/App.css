@@ -1,0 +1,35 @@
+.music-header{
+  text-align: center;
+  color: rgb(247, 68, 98);
+}
+.music-player{
+  max-width: 700px;
+  margin: 0 auto;
+}
+.music{
+  background:#8080808a ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding:10px;
+  margin:1.5rem;
+}
+.music >img {
+  flex-basis: 30%;
+  width:200px;
+  height:200px;
+  margin:2px 10px;
+}
+.music >.container{ 
+  display: flex;
+  flex-basis: 50%;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.music h1{
+  color:white;
+}
+.play-pause-button{
+  text-align: center;
+  width:100px;
+}
